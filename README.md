@@ -89,8 +89,7 @@ cp -r ~/.config/dotfiles/.tmuxifier ~/.tmuxifier
 
 ## Cheat Sheet
 
-<details>
-<summary>Tmux keymaps (prefix: <code>Ctrl-s</code>)</summary>
+Tmux keymaps (prefix: <code>Ctrl-s</code>)
 
 | Key | Action |
 |---|---|
@@ -104,10 +103,7 @@ cp -r ~/.config/dotfiles/.tmuxifier ~/.tmuxifier
 | `y` (copy mode) | Yank selection |
 | `Shift-Enter` | Send literal newline (`\n`) |
 
-</details>
-
-<details>
-<summary>Shell aliases & commands</summary>
+Shell aliases & commands
 
 | Command | Action |
 |---|---|
@@ -119,4 +115,3 @@ cp -r ~/.config/dotfiles/.tmuxifier ~/.tmuxifier
 | `diprm` | `dip bundle && dip rails db:migrate` |
 | `diprt` | Run tests verbose |
 
-</details>
