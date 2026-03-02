@@ -1,0 +1,3 @@
+[submodule "nvim"]
+	path = nvim
+	url = git@github.com:jrupinski/nvim-12-native-from-scratch.git
