@@ -17,7 +17,7 @@ brew install git neovim tmux fzf ripgrep fd node python lazygit
   brew install --cask font-jetbrains-mono-nerd-font
   ```
 
-  Then set the font it in your terminal config (eg. Ghostty):
+  Then set the font in your terminal config (eg. Ghostty):
   ```bash
   font-family = "JetBrainsMonoNL Nerd Font Mono"
   ```
