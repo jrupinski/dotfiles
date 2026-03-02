@@ -78,6 +78,7 @@ Symlink (edits sync automatically):
 ln -sf ~/.config/dotfiles/.zshrc ~/.zshrc
 ln -sf ~/.config/dotfiles/.tmux.conf ~/.tmux.conf
 ln -sf ~/.config/dotfiles/.tmuxifier ~/.tmuxifier
+ln -sfn ~/.config/dotfiles/nvim ~/.config/nvim
 ```
 
 Or copy:
@@ -85,6 +86,7 @@ Or copy:
 cp ~/.config/dotfiles/.zshrc ~/.zshrc
 cp ~/.config/dotfiles/.tmux.conf ~/.tmux.conf
 cp -r ~/.config/dotfiles/.tmuxifier ~/.tmuxifier
+cp -r ~/.config/dotfiles/nvim ~/.config/nvim
 ```
 
 ## Cheat Sheet
