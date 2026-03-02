@@ -43,3 +43,38 @@ git submodule update --init
 ```
 
 Then copy/overwrite the files where necessary.
+
+## Cheat Sheet
+
+<details>
+<summary>Tmux keymaps (prefix: <code>Ctrl-s</code>)</summary>
+
+| Key | Action |
+|---|---|
+| `prefix + r` | Reload tmux config |
+| `prefix + h/j/k/l` | Navigate panes (left/down/up/right) |
+| `prefix + ^` | Switch to last window |
+| `prefix + =` | Tiled layout (equal pane sizes) |
+| `prefix + [` | Enter copy mode |
+| `v` (copy mode) | Begin selection |
+| `C-v` (copy mode) | Rectangle selection |
+| `y` (copy mode) | Yank selection |
+| `Shift-Enter` | Send literal newline (`\n`) |
+
+</details>
+
+<details>
+<summary>Shell aliases & commands</summary>
+
+| Command | Action |
+|---|---|
+| `work` | Launch Rails tmuxifier session (server, lazygit, editor, console, terminal) |
+| `dipupd` | Pull latest, bundle, migrate, then switch back to previous branch |
+| `dipr` | `dip rails` |
+| `diprc` | `dip rails c` |
+| `diprs` | `dip rails s` |
+| `diprm` | `dip bundle && dip rails db:migrate` |
+| `diprt` | Run tests verbose |
+| `mvim` | Opens nvim (for Rails better_errors compatibility) |
+
+</details>
