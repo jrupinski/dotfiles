@@ -141,8 +141,6 @@ export DOTNET_ROOT="/opt/homebrew/opt/dotnet/libexec"
 # ASDF
 export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
 
-# rails better_errors alias so it opens nvim
-alias mvim='nvim'
 
 # For Bob (nvim package manager)
 export PATH="$PATH:/Users/jakubrupinski/.local/bin"

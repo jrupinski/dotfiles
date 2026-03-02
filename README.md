@@ -75,6 +75,5 @@ Then copy/overwrite the files where necessary.
 | `diprs` | `dip rails s` |
 | `diprm` | `dip bundle && dip rails db:migrate` |
 | `diprt` | Run tests verbose |
-| `mvim` | Opens nvim (for Rails better_errors compatibility) |
 
 </details>
