@@ -107,7 +107,7 @@ alias dipr='dip rails'
 alias diprc='dip rails c'
 alias diprs='dip rails s'
 alias diprm='dip bundle && dip rails db:migrate'
-alias diprt='dip rake test TESTOPTS='--verbose' RAILS_ENV=test'
+alias diprt="dip rake test TESTOPTS='--verbose' RAILS_ENV=test"
 alias work='tmuxifier load-session rails'
 
 source /Users/jakubrupinski/.docker/init-zsh.sh || true # Added by Docker Desktop
